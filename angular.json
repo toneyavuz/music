@@ -36,7 +36,12 @@
             "styles": [
               "src/styles.sass"
             ],
-            "scripts": []
+            "scripts": [],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/style/"
+              ]
+            }
           },
           "configurations": {
             "production": {
@@ -104,7 +109,22 @@
             "styles": [
               "src/styles.sass"
             ],
-            "scripts": []
+            "scripts": [],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/style/"
+              ]
+            }
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "music:build:production",
+            "firebaseProject": "music-future",
+            "firebaseHostingSite": "music-future"
           }
         }
       }

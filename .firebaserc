@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "music-future": {
+      "hosting": {
+        "music": [
+          "music-future"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "music-future"
+  }
+}
