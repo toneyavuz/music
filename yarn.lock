@@ -2252,6 +2252,62 @@
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-13.0.3.tgz#ec31dfa49dae79aeee68cc970fea6f5fd9ebc76d"
   integrity sha512-sVi1Xk8pyy6Y6JODySucYfvuxb5k3IIX/oIWy8QxlFVzpeB2UMqEOevrgvtmiEbQNB1W+aYSTph6oeV+PRX5YA==
 
+"@ngxs-labs/firestore-plugin@^0.1.31":
+  version "0.1.31"
+  resolved "https://registry.yarnpkg.com/@ngxs-labs/firestore-plugin/-/firestore-plugin-0.1.31.tgz#82e0199e95d88318ea7685f92dd226ec7fd7238d"
+  integrity sha512-pSzKPj4YSD0JQ3pNZ4lpR9T8JDDOAzgSB6yEc+YrWnq1YEbdmzQMLr6imto9QppdkejlJQ8t7Tv17WueEh+EVg==
+  dependencies:
+    tslib "^2.0.0"
+
+"@ngxs/devtools-plugin@^3.7.2-dev.master-9a7c431":
+  version "3.7.2-dev.master-9a7c431"
+  resolved "https://registry.yarnpkg.com/@ngxs/devtools-plugin/-/devtools-plugin-3.7.2-dev.master-9a7c431.tgz#ac94030ba326b11e116a80e4c6734cbbb3b35051"
+  integrity sha512-WQCwigBrX2mv4xA3fb1UFdTim0kJ21DsG1gIgTcoDtOp+qV+Cow7zkfHXJH3tWlRnjOGkl5q1fw8Noxr13l8xQ==
+  dependencies:
+    tslib "^1.9.0"
+
+"@ngxs/form-plugin@^3.7.2-dev.master-9a7c431":
+  version "3.7.2-dev.master-9a7c431"
+  resolved "https://registry.yarnpkg.com/@ngxs/form-plugin/-/form-plugin-3.7.2-dev.master-9a7c431.tgz#ab6f39a95e907d082e85bcbe38612068de23bfc0"
+  integrity sha512-tZq+1C64WlBVjGoSt1NBvexVLWm95C7Oq0LDCt6pYewax9uCHleEvUVmOUTDK0oGi+3crBe/niaQoFcxXvpnzw==
+  dependencies:
+    tslib "^1.9.0"
+
+"@ngxs/logger-plugin@^3.7.2-dev.master-9a7c431":
+  version "3.7.2-dev.master-9a7c431"
+  resolved "https://registry.yarnpkg.com/@ngxs/logger-plugin/-/logger-plugin-3.7.2-dev.master-9a7c431.tgz#2641d7ed1f07ff5caecfc8e554f53f9e8ee30be7"
+  integrity sha512-99bMb8kaE9/2+EK7nVGOsgAVWBotrp0hoCpl48bWCr/UKctugTxxkLof484LMZCj4M3TwocLPMzGsa5ymB0QlQ==
+  dependencies:
+    tslib "^1.9.0"
+
+"@ngxs/router-plugin@^3.7.2-dev.master-9a7c431":
+  version "3.7.2-dev.master-9a7c431"
+  resolved "https://registry.yarnpkg.com/@ngxs/router-plugin/-/router-plugin-3.7.2-dev.master-9a7c431.tgz#f0b4932197bd3e8a77b7b173be4d4184625a0dd8"
+  integrity sha512-CP8VjHLhGhFAOD1F1SMA6kyhjwtMDjhHOSd5ZO97eHU33/BtPdrWyRF65IZ3IL2pYdYptEYyuL3Iphjv7n5uhw==
+  dependencies:
+    tslib "^1.9.0"
+
+"@ngxs/storage-plugin@^3.7.2-dev.master-9a7c431":
+  version "3.7.2-dev.master-9a7c431"
+  resolved "https://registry.yarnpkg.com/@ngxs/storage-plugin/-/storage-plugin-3.7.2-dev.master-9a7c431.tgz#cd59340069194bec48b3f77f564ca1d93a60e6c7"
+  integrity sha512-Mes007aT7jHx5ClXPiPCODp1bRFNj9PIOO42NscT3FdPxhSJ+pMhikVbB3DDi8ofdBmOjB9qGDS77wAAkfsfTQ==
+  dependencies:
+    tslib "^1.9.0"
+
+"@ngxs/store@^3.7.2-dev.master-9a7c431":
+  version "3.7.2-dev.master-9a7c431"
+  resolved "https://registry.yarnpkg.com/@ngxs/store/-/store-3.7.2-dev.master-9a7c431.tgz#c8ba6f2f13a20066cb39f91b6da7fef1f07fe4e2"
+  integrity sha512-QgUxYFYDQHO9gCODRy1ak/216sHobUdTkTvSht+KxbuvncUhsEXSMCilZAYOknM1hGTUqQ4r0r62Fl39A+HYYQ==
+  dependencies:
+    tslib "^1.9.0"
+
+"@ngxs/websocket-plugin@^3.7.2-dev.master-9a7c431":
+  version "3.7.2-dev.master-9a7c431"
+  resolved "https://registry.yarnpkg.com/@ngxs/websocket-plugin/-/websocket-plugin-3.7.2-dev.master-9a7c431.tgz#e2e6b0f616f25ad7804f67433de9684d1729208b"
+  integrity sha512-V1dBZX1W0KvJMTfuiyb66EWw5PywGV1mWBaQzYu6ESvONk5pm4sVl+LOHGzZFreS04894qUcRYcZQVfxnLUhzQ==
+  dependencies:
+    tslib "^1.9.0"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -4715,6 +4771,11 @@ boolbase@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
+bootstrap@^5.1.3:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.1.3.tgz#ba081b0c130f810fa70900acbc1c6d3c28fa8f34"
+  integrity sha512-fcQztozJ8jToQWXxVuEyXWW+dSo8AiXWKwiSSrKWsRB/Qt+Ewwza+JWoLKiTuQLaEPhdNAJ7+Dosc9DOIqNy7Q==
 
 boxen@^5.1.2:
   version "5.1.2"
