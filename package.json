@@ -1,11 +1,14 @@
 {
-  "name": "music",
-  "version": "0.0.0",
+  "name": "musicx",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 6874",
     "build": "ng build",
+    "build:prod": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
+    "watch:prod": "ng build --watch --configuration production",
+    "docker:build": "sh build-docker.sh",
     "test": "ng test",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "storybook": "yarn docs:json && start-storybook -p 6006",

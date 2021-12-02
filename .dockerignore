@@ -1,0 +1,10 @@
+dist
+documentation.json
+/.idea/*
+/.vscode/*
+/.angular
+.git
+.editorconfig
+/node_modules
+/docs
+.gitignore
